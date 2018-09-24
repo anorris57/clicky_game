@@ -13,37 +13,52 @@ import appleOne from "../images/appleOne.jpg"
 import appletwo from "../images/appletwo.jpeg"
 
 class Home extends Component {
+
+  state = {
+    count: 0
+  };
+
+ 
+  handleClick = event => {
+    console.log(event.target);
+    this.setState({ count: this.state.count + 1 });
+  };
+
   render() {
-    return(
-  <div className="container">
-    <div class="card-columns ">
-      <div className="card img-fluid" >
-        <img src={apple3}  alt="apple"/></div>
-        <div className="card img-fluid" >
-        <img src={apple5}  alt="apple"/></div>
-        <div className="card img-fluid" >
-        <img src={apple6}  alt="apple"/></div>
-        <div className="card img-fluid" >
-        <img src={apple7}  alt="apple"/></div>
-        <div className="card img-fluid" >
-        <img src={apple8}  alt="apple"/></div>
-        <div className="card img-fluid" >
-        <img src={apple9}  alt="apple"/></div>
-        <div className="card img-fluid" >
-        <img src={apple10}  alt="apple"/></div>
-        <div className="card img-fluid" >
-        <img src={apple11}  alt="apple"/></div>
-        <div className="card img-fluid" >
-        <img src={apple12}  alt="apple"/></div>
-        <div className="card img-fluid" >
-        <img src={applefour}  alt="apple"/></div>
-        <div className="card img-fluid" >
-        <img src={appleOne}  alt="apple"/></div>
-        <div className="card img-fluid" >
-        <img src={appletwo}  alt="apple"/></div>
-    </div>
-  </div>
-  
+
+    return (
+      <div className="container">
+        <div className="card-body">
+          <p className="card-text">Click Count: {this.state.count}</p>
+        </div>
+        <div className="card-columns">
+          <div className="card img-fluid" >
+            <img src={apple3} alt="apple" onClick={this.handleClick} /></div>
+          <div className="card img-fluid" >
+            <img src={apple5} alt="apple" onClick={this.handleClick} /></div>
+          <div className="card img-fluid" >
+            <img src={apple6} alt="apple" /></div>
+          <div className="card img-fluid" >
+            <img src={apple7} alt="apple" /></div>
+          <div className="card img-fluid" >
+            <img src={apple8} alt="apple" /></div>
+          <div className="card img-fluid" >
+            <img src={apple9} alt="apple" /></div>
+          <div className="card img-fluid" >
+            <img src={apple10} alt="apple" /></div>
+          <div className="card img-fluid" >
+            <img src={apple11} alt="apple" /></div>
+          <div className="card img-fluid" >
+            <img src={apple12} alt="apple" /></div>
+          <div className="card img-fluid" >
+            <img src={applefour} alt="apple" /></div>
+          <div className="card img-fluid" >
+            <img src={appleOne} alt="apple" /></div>
+          <div className="card img-fluid" >
+            <img src={appletwo} alt="apple" /></div>
+        </div>
+      </div>
+
     )
   }
 }
