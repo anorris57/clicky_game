@@ -1,13 +1,16 @@
 import React, { Component } from 'react';
-import Home from './components/Home'
+import HomeCard from './components/HomeCard'
+
 
 
 class App extends Component {
+ 
   render() {
     return (
       <div className="App">
-       <div class= "jumbotron">Welcome to clicky game</div>
-       <Home />
+       <div className= "jumbotron">Welcome to clicky game</div>
+       
+       <HomeCard />
       </div>
     );
   }
