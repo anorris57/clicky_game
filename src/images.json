@@ -1,12 +1,12 @@
 [{
   "id":1,
   "name": "apple1",
-  "image": "appleOne.jpg"
+  "image": "apple1.jpg"
 },
 {
   "id":2,
   "name": "apple2",
-  "image": "appletwo.jpeg"
+  "image": "apple2.jpg"
 },
 {
   "id":3,
@@ -16,22 +16,22 @@
 {
   "id":4,
   "name": "apple4",
-  "image": "applefour.jpeg"
+  "image": "apple4.jpg"
 },
 {
   "id":5,
   "name": "apple5",
-  "image": "apple5.jpeg"
+  "image": "apple5.jpg"
 },
 {
   "id":6,
   "name": "apple6",
-  "image": "apple6.jpeg"
+  "image": "apple6.jpg"
 },
 {
   "id":7,
   "name": "apple7",
-  "image": "apple7.jpeg"
+  "image": "apple7.jpg"
 },
 {
   "id":8,
