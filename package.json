@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "https://anorris57.github.io/clicky_game",
   "dependencies": {
-    "acorn": "^6.4.0",
+    "acorn": "^6.4.1",
     "ajv": "^6.10.2",
     "install": "^0.12.2",
     "js-yaml": "^3.13.1",
