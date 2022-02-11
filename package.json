@@ -5,7 +5,7 @@
   "homepage": "https://anorris57.github.io/clicky_game",
   "dependencies": {
     "acorn": "^6.4.0",
-    "ajv": "^6.10.2",
+    "ajv": "^6.12.3",
     "install": "^0.12.2",
     "js-yaml": "^3.13.1",
     "lodash.template": "^4.5.0",
